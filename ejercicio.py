@@ -9,10 +9,11 @@ if type(b) != int:
 #Procesamiento de datos
 a= a/10
 b=b/10
-suma = a+b
-resta = a-b
-multiplicacion = a*b
-division = a/b
+suma =round(a+b,2)
+resta =round( a-b,2)
+
+multiplicacion =round( a*b,2)
+division = round(a/b,2)
 
 #Salida de resultados
 print(str(a) , ' + ' , str(b) + ' = ' + str(suma))
